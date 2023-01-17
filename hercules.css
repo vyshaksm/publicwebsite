@@ -1,0 +1,155 @@
+.headerimg{
+    width: 40%;
+}  
+body{
+  overflow-x: hidden;
+  
+} 
+ 
+.imagelogo1{
+    max-height: 47px;
+    height: 2.97rem;
+    width: 14rem;
+    margin-left: 3rem;
+   
+}
+#acolor{
+  color:white;
+ }
+ #acolor:hover{
+  color: red;
+ }
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  
+  .embed-responsive-16by9::before {
+    padding-top: 56.25%;
+  }
+  
+  .embed-responsive::before {
+    display: block;
+    content: "";
+  }
+  .back{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/back.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .hercules1{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    margin: 14px;
+    line-height: 27px;
+    letter-spacing: 0px;
+    font-weight: 100;
+
+  }
+  #hr{
+    color: white;
+    font-size:larger;
+    opacity: 150%;
+  }
+  .our{
+    position: relative;
+    bottom: 2.2em;
+      background-color: rgb(0, 0, 0);
+      width: 51em;
+      color: white;
+      opacity: 150%;
+      font-size: 29%;
+      margin: auto;
+      text-align: center;
+  }
+  .thehercules{
+      position: relative;
+      bottom: 9em;
+      background-color: rgb(0, 0, 0);
+      width: 58em;
+      bottom: 1.7em;
+      color: white;
+      opacity: 150%;
+      font-size: 29%;
+      bottom: 9em;
+      margin: auto;
+      text-align: center;
+  }
+  .p{
+    color: white;
+     font-size: 15px;
+  }
+  .btn1{
+    height: 40px;
+    border-radius: 4px;
+    font-size: 14px;
+     margin-left: 15%; 
+    
+  }
+  .btn2{
+    height: 40px;
+    border-radius: 4px;
+    font-size: 13px;
+     margin-left: 15%;
+     
+  }
+  .footer{
+    width:100%;
+    height: 100px;
+    background-color: black;
+    
+  }
+  .btn1{
+    background-color: red;
+     color: white;
+  }
+  .btn2{
+    background-color: red; 
+    color: white;
+     margin-top: 20px; 
+  }
+  .fptag{
+    color: #ffffff;
+    font-size: 12px;
+    
+
+  }
+  .footerlast{
+    text-align: center;
+    background-color: black;
+  }
+  .moving1{
+    transition: 0.2s;
+    
+  }
+  .moving1:hover{
+    overflow:hidden;
+    transform: scale(1.02);
+  }
+  .moving2{
+    transition: 0.2s;
+   
+  }
+  .moving2:hover{
+    overflow:hidden;
+    scale: 1.08;
+  }
